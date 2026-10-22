@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060b14" />
+      <stop offset="100%" stop-color="#0c1426" />
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="50%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#121d36" />
+      <stop offset="100%" stop-color="#0c1426" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#bg)" />
+
+  <!-- Top App Bar -->
+  <rect x="30" y="24" width="1140" height="70" rx="10" fill="url(#cardGrad)" stroke="#1e2e4f" stroke-width="1.5" />
+  <rect x="50" y="39" width="40" height="40" rx="8" fill="url(#primaryGrad)" />
+  <text x="70" y="66" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="18" text-anchor="middle">PF</text>
+  <text x="105" y="56" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="18">PFCPForge Pro</text>
+  <text x="105" y="73" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">Zero-Trust 5G N4 &amp; 4G CUPS Packet Forwarding Control Protocol (3GPP TS 29.244) Studio</text>
+
+  <!-- Badges -->
+  <rect x="730" y="44" width="110" height="28" rx="6" fill="rgba(16, 185, 129, 0.15)" stroke="#10b981" stroke-width="1"/>
+  <text x="785" y="62" fill="#34d399" font-family="monospace" font-weight="bold" font-size="10" text-anchor="middle">3GPP TS 29.244</text>
+
+  <rect x="850" y="44" width="110" height="28" rx="6" fill="rgba(6, 182, 212, 0.15)" stroke="#06b6d4" stroke-width="1"/>
+  <text x="905" y="62" fill="#22d3ee" font-family="monospace" font-weight="bold" font-size="10" text-anchor="middle">5G N4 / 4G CUPS</text>
+
+  <rect x="970" y="44" width="105" height="28" rx="6" fill="rgba(56, 189, 248, 0.15)" stroke="#38bdf8" stroke-width="1"/>
+  <text x="1022" y="62" fill="#38bdf8" font-family="monospace" font-weight="bold" font-size="10" text-anchor="middle">PDR/FAR/QER/URR</text>
+
+  <rect x="1085" y="44" width="75" height="28" rx="6" fill="rgba(244, 63, 94, 0.15)" stroke="#f43f5e" stroke-width="1"/>
+  <text x="1122" y="62" fill="#fb7185" font-family="monospace" font-weight="bold" font-size="10" text-anchor="middle">UDP 8805</text>
+
+  <!-- Presets Strip -->
+  <rect x="30" y="110" width="240" height="34" rx="6" fill="rgba(16, 185, 129, 0.2)" stroke="#10b981" stroke-width="1.5" />
+  <text x="150" y="132" fill="#34d399" font-family="-apple-system, sans-serif" font-weight="bold" font-size="12" text-anchor="middle">Carrier 5G SA Core N4 (Grade A+)</text>
+
+  <rect x="280" y="110" width="240" height="34" rx="6" fill="#121d36" stroke="#1e2e4f" stroke-width="1" />
+  <text x="400" y="132" fill="#94a3b8" font-family="-apple-system, sans-serif" font-weight="bold" font-size="12" text-anchor="middle">Private 5G MEC Edge UPF (Grade A)</text>
+
+  <rect x="530" y="110" width="230" height="34" rx="6" fill="#121d36" stroke="#1e2e4f" stroke-width="1" />
+  <text x="645" y="132" fill="#94a3b8" font-family="-apple-system, sans-serif" font-weight="bold" font-size="12" text-anchor="middle">Vulnerable Unencrypted N4 (F)</text>
+
+  <!-- Left Column: Controls (Width: 420) -->
+  <rect x="30" y="160" width="420" height="300" rx="10" fill="url(#cardGrad)" stroke="#1e2e4f" stroke-width="1.5" />
+  <text x="50" y="190" fill="#f8fafc" font-family="-apple-system, sans-serif" font-weight="bold" font-size="14">PFCP Session &amp; Node Parameters</text>
+  <rect x="270" y="174" width="160" height="22" rx="4" fill="rgba(16,185,129,0.15)" />
+  <text x="350" y="189" fill="#34d399" font-family="monospace" font-size="10" text-anchor="middle">SEST (Type 50)</text>
+
+  <text x="50" y="225" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Message Type</text>
+  <rect x="50" y="235" width="180" height="30" rx="5" fill="#091120" stroke="#1e2e4f" />
+  <text x="60" y="255" fill="#f8fafc" font-family="monospace" font-size="12">50: Session Est Req</text>
+
+  <text x="250" y="225" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">F-SEID (64-bit Hex)</text>
+  <rect x="250" y="235" width="180" height="30" rx="5" fill="#091120" stroke="#1e2e4f" />
+  <text x="260" y="255" fill="#34d399" font-family="monospace" font-size="12">0x0000000000000001</text>
+
+  <text x="50" y="295" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">SMF Control Plane IP</text>
+  <rect x="50" y="305" width="180" height="30" rx="5" fill="#091120" stroke="#1e2e4f" />
+  <text x="60" y="325" fill="#38bdf8" font-family="monospace" font-size="11">10.200.1.10</text>
+
+  <text x="250" y="295" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">UPF User Plane IP</text>
+  <rect x="250" y="305" width="180" height="30" rx="5" fill="#091120" stroke="#1e2e4f" />
+  <text x="260" y="325" fill="#22d3ee" font-family="monospace" font-size="11">10.200.1.20</text>
+
+  <text x="50" y="365" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Data Network Name (DNN)</text>
+  <rect x="50" y="375" width="180" height="30" rx="5" fill="#091120" stroke="#1e2e4f" />
+  <text x="60" y="395" fill="#fbbf24" font-family="monospace" font-size="11">internet</text>
+
+  <text x="250" y="365" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Assigned UE IP</text>
+  <rect x="250" y="375" width="180" height="30" rx="5" fill="#091120" stroke="#1e2e4f" />
+  <text x="260" y="395" fill="#a5b4fc" font-family="monospace" font-size="11">10.45.0.2</text>
+
+  <!-- Left Bottom: Zero-Trust Controls (Width: 420) -->
+  <rect x="30" y="480" width="420" height="295" rx="10" fill="url(#cardGrad)" stroke="#1e2e4f" stroke-width="1.5" />
+  <text x="50" y="510" fill="#f8fafc" font-family="-apple-system, sans-serif" font-weight="bold" font-size="14">Downlink Buffer Sizer &amp; Security Toggles</text>
+
+  <text x="50" y="540" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Buffer Allocation (Idle UE Paging)</text>
+  <rect x="50" y="550" width="380" height="30" rx="5" fill="#091120" stroke="#1e2e4f" />
+  <text x="60" y="570" fill="#34d399" font-family="monospace" font-size="11">Max: 50 pkts/bearer | Hold Timer: 5.0s</text>
+
+  <text x="50" y="605" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Zero-Trust TS 33.501 Controls</text>
+  <rect x="50" y="615" width="380" height="135" rx="6" fill="#091120" stroke="#1e2e4f" />
+  <text x="65" y="640" fill="#34d399" font-family="monospace" font-size="11">[X] IPsec IKEv2 Cryptographic Tunnel (UDP 8805)</text>
+  <text x="65" y="665" fill="#34d399" font-family="monospace" font-size="11">[X] F-SEID 64-Bit State Machine Isolation</text>
+  <text x="65" y="690" fill="#34d399" font-family="monospace" font-size="11">[X] PDR Precedence Disambiguation (Hierarchical)</text>
+  <text x="65" y="715" fill="#34d399" font-family="monospace" font-size="11">[X] QER 5QI/QFI Token Bucket Bandwidth Police</text>
+  <text x="65" y="740" fill="#34d399" font-family="monospace" font-size="11">[X] Control Plane Policing (CoPP) 50k pps</text>
+
+  <!-- Right Column: Audit Scorecard & Hex Dissector -->
+  <rect x="470" y="160" width="700" height="230" rx="10" fill="url(#cardGrad)" stroke="#1e2e4f" stroke-width="1.5" />
+  <text x="490" y="190" fill="#f8fafc" font-family="-apple-system, sans-serif" font-weight="bold" font-size="14">10-Point Zero-Trust 5G N4 Security Scorecard (TS 33.501)</text>
+
+  <rect x="490" y="210" width="660" height="60" rx="8" fill="rgba(16, 185, 129, 0.12)" stroke="#10b981" stroke-width="1" />
+  <circle cx="530" cy="240" r="22" fill="#091120" stroke="#10b981" stroke-width="2" />
+  <text x="530" y="247" fill="#34d399" font-family="sans-serif" font-weight="900" font-size="18" text-anchor="middle">A+</text>
+  <text x="570" y="235" fill="#f8fafc" font-family="sans-serif" font-weight="bold" font-size="15">100 / 100 Points — Production-Grade Signaling</text>
+  <text x="570" y="253" fill="#94a3b8" font-family="sans-serif" font-size="12">IPsec transport encryption, strict PDR/FAR/QER rule isolation, and buffer protection.</text>
+
+  <!-- Findings snapshot -->
+  <rect x="490" y="285" width="320" height="40" rx="4" fill="#091120" stroke="#1e2e4f" />
+  <text x="505" y="302" fill="#34d399" font-family="sans-serif" font-weight="bold" font-size="11">✓ IPsec N4 Transport Encryption</text>
+  <text x="505" y="318" fill="#94a3b8" font-family="sans-serif" font-size="10">12/12 pts — Encrypted UDP 8805 prevents hijacking</text>
+
+  <rect x="830" y="285" width="320" height="40" rx="4" fill="#091120" stroke="#1e2e4f" />
+  <text x="845" y="302" fill="#34d399" font-family="sans-serif" font-weight="bold" font-size="11">✓ F-SEID 64-Bit State Machine</text>
+  <text x="845" y="318" fill="#94a3b8" font-family="sans-serif" font-size="10">12/12 pts — CSPRNG prevents cross-tenant collision</text>
+
+  <rect x="490" y="335" width="320" height="40" rx="4" fill="#091120" stroke="#1e2e4f" />
+  <text x="505" y="352" fill="#34d399" font-family="sans-serif" font-weight="bold" font-size="11">✓ Downlink Buffer OOM Protection</text>
+  <text x="505" y="368" fill="#94a3b8" font-family="sans-serif" font-size="10">10/10 pts — Capped 50 pkts / 5s timeout</text>
+
+  <rect x="830" y="335" width="320" height="40" rx="4" fill="#091120" stroke="#1e2e4f" />
+  <text x="845" y="352" fill="#34d399" font-family="sans-serif" font-weight="bold" font-size="11">✓ QER Rate &amp; Gate Enforcement</text>
+  <text x="845" y="368" fill="#94a3b8" font-family="sans-serif" font-size="10">10/10 pts — 5QI token-bucket policing</text>
+
+  <!-- Right Bottom: Hex Wireframe & Synthesizer -->
+  <rect x="470" y="410" width="700" height="365" rx="10" fill="url(#cardGrad)" stroke="#1e2e4f" stroke-width="1.5" />
+  <text x="490" y="435" fill="#f8fafc" font-family="-apple-system, sans-serif" font-weight="bold" font-size="14">3GPP TS 29.244 PFCP Binary Datagram Dissector</text>
+
+  <!-- Hex Dump Display -->
+  <rect x="490" y="450" width="660" height="110" rx="6" fill="#040813" stroke="#1e2e4f" />
+  <text x="505" y="475" fill="#34d399" font-family="monospace" font-size="11">0000   21 32 00 f2 00 00 00 00 00 00 00 01 00 04 12 00   |!2..............|</text>
+  <text x="505" y="495" fill="#34d399" font-family="monospace" font-size="11">0010   00 3c 00 11 02 73 6d 66 30 31 2e 63 61 72 72 69   |.&lt;...smf01.carri|</text>
+  <text x="505" y="515" fill="#34d399" font-family="monospace" font-size="11">0020   65 72 2e 35 67 00 39 00 0d 02 00 00 00 00 00 00   |er.5g.9.........|</text>
+  <text x="505" y="540" fill="#94a3b8" font-family="monospace" font-size="10">[Version 1 | Type: 50 SEST | S=1 SEID: 0x1 | PDR 1,2 | FAR 1,2 | QER 1 | URR 1]</text>
+
+  <!-- Synthesizer Output -->
+  <rect x="490" y="575" width="660" height="185" rx="6" fill="#040813" stroke="#1e2e4f" />
+  <text x="505" y="598" fill="#10b981" font-family="monospace" font-size="11"># Open5GS 5G Core User Plane Function (upf.yaml)</text>
+  <text x="505" y="618" fill="#cbd5e1" font-family="monospace" font-size="11">upf: pfcp: server: address: 10.200.1.20, port: 8805</text>
+  <text x="505" y="638" fill="#38bdf8" font-family="monospace" font-size="11">client: smf: address: 10.200.1.10, port: 8805 | heartbeat: interval: 10s</text>
+  <text x="505" y="658" fill="#cbd5e1" font-family="monospace" font-size="11">buffering: max_packets: 50, timeout: 5</text>
+  <text x="505" y="678" fill="#fbbf24" font-family="monospace" font-size="11">gtpu: server: 10.200.1.20 | subnet: 10.45.0.0/16, dnn: internet</text>
+</svg>
